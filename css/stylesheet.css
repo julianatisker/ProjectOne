@@ -1,0 +1,37 @@
+* {
+    margin: 0; 
+}
+
+nav {
+    text-transform: uppercase;
+    text-align: right;
+    padding: 10px 3px 3px 10px;
+    margin: 3px;
+}
+
+nav a {
+    color: rgb(118, 145, 118);
+    margin: 20px;
+    font-size: 15px;
+}
+
+body {
+    background-color: white
+}
+
+<header {
+
+}
+
+.me {
+    
+}
+
+.gif {
+    width: 55px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
