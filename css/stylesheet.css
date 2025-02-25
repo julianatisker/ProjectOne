@@ -1,37 +1,31 @@
 * {
-    margin: 0; 
+    margin: 0;
+    padding: 0;
+}
+
+ header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
 nav {
     text-transform: uppercase;
     text-align: right;
-    padding: 10px 3px 3px 10px;
+    padding: 35px 3px 3px 15px;
     margin: 3px;
+    margin-left: auto;
 }
 
 nav a {
     color: rgb(118, 145, 118);
-    margin: 20px;
-    font-size: 15px;
+    margin: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: right;
 }
 
-body {
-    background-color: white
-}
-
-<header {
-
-}
-
-.me {
-    
-}
-
-.gif {
-    width: 55px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+.navgif {
+    margin: 3px;
 }
