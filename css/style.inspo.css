@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .zuli {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 30%;
+    padding: 3%;
+  }
+
+  .latinmafia {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 30%;
+    padding: 3%;
+  }
+
+  .akshita {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    width: 30%;
+    padding: 3%;
+  }
+
+  img {
+    width: auto;
+    height: 100%;
+  }

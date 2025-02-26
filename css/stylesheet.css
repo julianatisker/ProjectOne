@@ -29,3 +29,21 @@ nav a {
 .navgif {
     margin: 3px;
 }
+
+nav a:hover {
+    color: rgb(39, 109, 40);
+}
+
+ footer {
+    text-transform: uppercase;
+    text-align: left;
+    padding: 35px 3px 3px 15px;
+    margin: 3px;
+ }
+
+  footer a {
+    color: rgb(118, 145, 118);
+    margin: 30px;
+    font-size: 20px;
+    text-decoration: none;
+  }
