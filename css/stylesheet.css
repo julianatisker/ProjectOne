@@ -13,25 +13,25 @@
 nav {
     text-transform: uppercase;
     text-align: right;
-    padding: 35px 3px 3px 15px;
-    margin: 3px;
+    align-self: center;
+    margin: 5px;
     margin-left: auto;
 }
 
 nav a {
-    color: rgb(118, 145, 118);
+    color: rgb(18, 55, 118);
     margin: 30px;
     font-size: 20px;
     text-decoration: none;
     text-align: right;
-}
-
-.navgif {
-    margin: 3px;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
 }
 
 nav a:hover {
-    color: rgb(39, 109, 40);
+    color: rgba(18, 55, 118, 0.448);
 }
 
  footer {
@@ -42,8 +42,14 @@ nav a:hover {
  }
 
   footer a {
-    color: rgb(118, 145, 118);
+    color: rgb(18, 55, 118);
     margin: 30px;
+    padding-bottom: 30px;
     font-size: 20px;
     text-decoration: none;
+    align-items: center;
+  }
+
+  .navgif {
+    margin: 15px;
   }
