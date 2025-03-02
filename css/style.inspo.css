@@ -1,16 +1,9 @@
-* {
+ * {
     margin: 0;
     padding: 0;
-}
+ }
 
-  .content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  .zuli, .latinmafia, .akshita {
+ .zuli, .latinmafia, .akshita {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -20,12 +13,19 @@
     font-family: "source-sans-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+ }
+
+ .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
 
   .pics {
     width: 100%;
     height: auto;
-  }
+ }
 
  h1 {
     text-align: center;
@@ -54,4 +54,4 @@
   h4 {
     width: 380px;
     font-size: 16px;
-  }
+ }

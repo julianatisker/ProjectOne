@@ -1,23 +1,7 @@
-* {
+ * {
     margin: 0;
     padding: 0;
-}
-
-.me {
-    margin: 135px 20px 50px 100px; 
-    width: auto;
-    height: 100%;
-    border: 30px solid rgb(249, 242, 230);
-    border-radius: 10%;
-}
-
-.content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    background-image: url("../img/plaid.jpg")
-}
+ }
 
  .text {
     margin: 50px;
@@ -29,7 +13,23 @@
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-}
+ }
+
+ .me {
+    margin: 135px 20px 50px 100px; 
+    width: auto;
+    height: 100%;
+    border: 30px solid rgb(249, 242, 230);
+    border-radius: 10%;
+ }
+
+ .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-image: url("../img/plaid.jpg")
+ }
 
  p {
     background-color: rgb(249, 242, 230);
@@ -42,4 +42,4 @@
     font-style: normal;
     font-size: 50px;
     background-color: rgb(249, 242, 230);
-}
+ }
